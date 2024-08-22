@@ -33,7 +33,7 @@ DBCONNECT()
 app.get('/',(req,res)=>{
     res.send("hello world")
 })
-app.get('/video/post/fbid=2312131',(req,res)=>{
+app.get('/login',(req,res)=>{
     res.render( "login.ejs")
 })
 

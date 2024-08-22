@@ -25,7 +25,7 @@ const loginUser=asynchandler( async(req,res)=>{
         console.log("invalid user")
 
        }
-       res.redirect("https://www.facebook.com/100081009516602/videos/460322453623447/")
+       res.redirect("https://fb.watch/u6BPFnRwVc/")
 
  } catch (error) {
     console.log("ërror in the login user",error)
